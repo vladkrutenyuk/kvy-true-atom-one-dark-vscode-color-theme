@@ -1,0 +1,46 @@
+{
+  "name": "kvy-true-atom-one-dark",
+  "displayName": "Kvy-True Atom One Dark",
+  "description": "My (kvy) version of Atom One Dark",
+  "version": "0.0.1",
+  "author": {
+    "name": "Vlad Krutenyuk",
+    "email": "vladislove2402@gmail.com",
+    "url": "vladkrutenyuk.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "color",
+    "js",
+    "javascript",
+    "typescript",
+    "scheme",
+    "color theme",
+    "theme",
+    "ts",
+    "react",
+    "tsx",
+    "jsx",
+    "best",
+    "kvy",
+    "pro"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kvy-True Atom One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kvy-true-atom-onedark-color-theme.json"
+      }
+    ]
+  }
+}
