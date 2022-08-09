@@ -239,7 +239,7 @@
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
@@ -621,9 +621,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.constant.object.tsx entity.name.function.tsx",
-			],
+			"scope": ["variable.other.constant.object.tsx entity.name.function.tsx"],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
@@ -656,15 +654,21 @@
 			}
 		},
 		{
-			"scope": ["support.constant.property-value", "support.constant.font-name", "support.constant.color", "constant.language.json.comments"],
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.color",
+				"constant.language.json.comments",
+				"constant.language.json"
+			],
 			"settings": {
-				"foreground": "#D19A66",
+				"foreground": "#D19A66"
 			}
 		},
 		{
 			"scope": ["variable.other.env", "source.json support.type.property-name"],
 			"settings": {
-				"foreground": "#E06C75",
+				"foreground": "#E06C75"
 			}
 		},
 		{
