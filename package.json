@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/vladkrutenyuk/kvy-true-atom-one-dark-vscode-color-theme"
   },
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.69.2"
   },
   "categories": [
     "Themes"
