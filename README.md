@@ -1,16 +1,15 @@
-# true-atom-one-dark README
+# Kvy-True Atom One Dark
 
-## Working with Markdown
+## My (kvy) version of atom one color theme
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+I like Atome One Dark color pallete, but dont like scopes in themes i found on marketplace. So Ive mixed Dark+ default theme with Atom One Dark color and also I've added some additional rules and scopes for syntax highlighting.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Made by Vlad Krutenyuk :)
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* [My Behance](http://behance.com/vladkrutenyuk)
+* [Telegram Channel @kvvy4](https://t.me/kvvy4)
+* [vladkrutenyuk.com](https://vladkrutenyuk.com)
 
 **Enjoy!**

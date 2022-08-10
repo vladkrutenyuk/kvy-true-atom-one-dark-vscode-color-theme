@@ -35,6 +35,7 @@
     "kvy",
     "pro"
   ],
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
