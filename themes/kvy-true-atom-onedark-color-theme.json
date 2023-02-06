@@ -503,22 +503,22 @@
 				"foreground": "#C678DD"
 			}
 		},
-		{
-			"name": "Variable and parameter name",
-			"scope": [
-				"variable",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable",
-				"constant.other.placeholder" // placeholders in strings
-			],
-			"settings": {
-				"foreground": "#ABB2BF"
-			}
-		},
+		// {
+		// 	"name": "Variable and parameter name",
+		// 	"scope": [
+		// 		"variable",
+		// 		"meta.definition.variable.name",
+		// 		"support.variable",
+		// 		"entity.name.variable",
+		// 		"constant.other.placeholder" // placeholders in strings
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#ABB2BF"
+		// 	}
+		// },
 		{
 			"name": "Constants and enums",
-			"scope": ["variable.other.constant", "variable.other.enummember"],
+			"scope": ["variable.other.property", "variable.other.enummember", "variable.scss"],
 			"settings": {
 				"foreground": "#E06C75"
 			}
@@ -628,13 +628,14 @@
 		},
 		{
 			"scope": [
+				"defaultLibrary",
 				"support.variable",
 				"support.function",
 				"constant.character.escape",
 				"support.type",
 				"source.tsx keyword.operator",
 				"keyword.operator",
-				"support.type.vendored.property-name.css"
+				"support.type.vendored.property-name.css",
 			],
 			"settings": {
 				"foreground": "#56B6C2"
@@ -676,7 +677,39 @@
 			"settings": {
 				"foreground": "#56B6C2"
 			}
-		}
+		},
+		{
+			"name": "Custom xml tag",
+			"scope": ["support.class.component"],
+			"settings": {
+				"foreground": "#26BDA4",
+			}
+		},
+		{
+			"scope": [
+				"support.class.builtin"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+			}
+		}, 
+		// {
+		// 	"scope": [
+		// 		"entity.name.function.tsx",
+		// 		"variable.other.constant.tsx",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#61AFEF"
+		// 	}
+		// }
 	],
 	"semanticTokenColors": {
 		"newOperator": "#C678DD",
